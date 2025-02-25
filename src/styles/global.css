@@ -1,0 +1,45 @@
+.avatar-container {
+
+    top: 10px;
+    justify-content: right;/* Puedes ajustar esto según lo necesites */
+    right: 0px; /* Lo coloca a la derecha */
+    width: 20px; /* Tamaño pequeño del avatar */
+    height: 40px; /* Tamaño pequeño del avatar */
+     /* Asegura que el avatar se vea redondeado */
+    display: flex;
+    position: fixed;
+
+}
+
+.colornegro{
+    color: #0a0a0a;
+}
+
+h1.colornegro {
+    font-size: 2.5rem; /* O el tamaño que prefieras */
+}
+
+h4.colornegro {
+    font-size: 1.5rem; /* Un tamaño diferente */
+}
+
+.encabezado{
+    top: 0px; /* Puedes ajustar esto según lo necesites */
+    right: 0px; /* Lo coloca a la derecha */
+    width: 100%; /* Tamaño pequeño del avatar */
+    height: 10%; /* Tamaño pequeño del avatar */
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+background-color: #666666;
+}
+
+
+
+/* Asegúrate de que no haya márgenes ni rellenos en el body */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%; /* Asegura que el body ocupe el 100% de la altura */
+}
